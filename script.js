@@ -14,7 +14,7 @@ function fetchJokes() {
     let jokes = document.getElementById("jokes");
     jokes.innerHTML = '';
 
-    fetch(`http://api.icndb.com/jokes/random/${num.value}`)
+    fetch(`https://api.icndb.com/jokes/random/${num.value}`)
         .then(function(response) {
             return response.json();
         })

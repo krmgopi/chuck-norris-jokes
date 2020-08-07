@@ -16,6 +16,7 @@
 
 ul li {
     font-size: 1.1rem;
+    font-weight: normal;
 }
 
 .social a {
@@ -25,9 +26,6 @@ ul li {
 @media only screen and (max-width: 600px) {
     .nav-wrapper a {
         width: max-content;
-    }
-    .social a {
-        /* margin-right: 30px; */
     }
 }
 

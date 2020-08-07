@@ -13,7 +13,6 @@ function fetchJokes() {
     }
     let jokes = document.getElementById("jokes");
     jokes.innerHTML = '';
-
     fetch(`https://api.icndb.com/jokes/random/${num.value}`)
         .then(function(response) {
             return response.json();
@@ -35,6 +34,6 @@ function fetchJokes() {
             num.value = ''
         })
         .catch(function(err) {
-            console.log("Error: something went wrong")
+            console.log("Error: something went wrong");
         });
 }

@@ -10,8 +10,12 @@
     margin-bottom: 500px;
 }
 
-.jj .numberOfJokess {
+.numberOfJokess {
     width: max-content
+}
+
+ul li {
+    font-size: 1.1rem;
 }
 
 .social a {

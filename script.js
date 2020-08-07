@@ -20,7 +20,6 @@ function fetchJokes() {
         })
         .then(function(data) {
             console.log(data);
-            let output = '';
             let ul = document.createElement('ul');
             ul.className = "collection with-header";
             jokes.appendChild(ul);
